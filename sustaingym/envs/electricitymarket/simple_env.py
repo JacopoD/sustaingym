@@ -11,8 +11,10 @@ sys.path.append('../')
 from typing import Union
 
 import numpy as np
-import gym
-from gym import spaces
+# import gym
+import gymnasium as gym
+from gymnasium import spaces
+# from gym import spaces
 import pandas as pd
 
 

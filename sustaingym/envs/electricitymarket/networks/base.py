@@ -43,6 +43,7 @@ class Network:
         """Check whether [start, end) period is valid for this network, when
         accounting for forecast.
         """
+        print("This function is not implemented")
         raise NotImplementedError
 
     def aggregate_demand(self, dt: datetime | Sequence[datetime],

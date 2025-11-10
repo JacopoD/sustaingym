@@ -222,7 +222,7 @@ def run_random(seeds: Sequence[int], env: gym.Env, discrete: bool) -> dict[str, 
     for ep, seed in tqdm(enumerate(seeds)):
         print("ep: ", ep)
         obs, info = env.reset(seed=seed)
-        prices[ep, 0] = obs['price previous'][0]
+        prices[ep, 0] = obs['prices previous'][0]
         energy[ep, 0] = obs['energy'][0]
         np.random.seed(seed)
         for i in range(1, env.T):
