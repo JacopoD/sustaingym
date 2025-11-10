@@ -1,0 +1,12 @@
+name: sgym
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - cvxpy
+  - pandas
+  - tqdm
+  - requests
+  - matplotlib
+  - seaborn
+prefix: /home/diventuraj/.conda/envs/sgym
