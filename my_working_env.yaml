@@ -3,10 +3,12 @@ channels:
   - defaults
 dependencies:
   - python=3.10
-  - cvxpy
-  - pandas
-  - tqdm
-  - requests
-  - matplotlib
-  - seaborn
-prefix: /home/diventuraj/.conda/envs/sgym
+  - cvxpy=1.7.3
+  - pandas=2.3.3
+  - tqdm=4.67.1
+  - requests=2.32.5
+  - matplotlib=3.10.6
+  - seaborn=0.13.2
+  - pip:
+      - gymnasium==0.28.1
+      - mosek==11.0.29
